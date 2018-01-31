@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#box {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	background-color: red;
+	position: relative;
+	animation: first 3s linear;
+	-moz-animation: first 3s linear;
+	-webkit-animation: first 3s linear;
+	-o-animation: first 3s linear;
+}
+
+@keyframes first {
+	0% { background-color: red; top:0; left: 0;}
+	25% { top: 0; left: 200px; }
+	50% { top: 200px; left: 200px; }
+	75% { top: 200px; left: 0; }
+	100% { top: 0; left: 0; background-color: yellow; }
+} 
+@-moz-keyframes first {
+	0% { background-color: red; top:0; left: 0;}
+	25% { top: 0; left: 200px; }
+	50% { top: 200px; left: 200px; }
+	75% { top: 200px; left: 0; }
+	100% { top: 0; left: 0; background-color: yellow; }
+} 
+@-webkit-keyframes first {
+	0% { background-color: red; top:0; left: 0;}
+	25% { top: 0; left: 200px; }
+	50% { top: 200px; left: 200px; }
+	75% { top: 200px; left: 0; }
+	100% { top: 0; left: 0; background-color: yellow; }
+} 
+@-o-keyframes first {
+	0% { background-color: red; top:0; left: 0;}
+	25% { top: 0; left: 200px; }
+	50% { top: 200px; left: 200px; }
+	75% { top: 200px; left: 0; }
+	100% { top: 0; left: 0; background-color: yellow; }
+} 
+</style>
+</head>
+<body>
+<div id="box">animation</div>
+</body>
+</html>
